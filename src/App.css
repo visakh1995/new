@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+:root {
+  --primary-color: #047aed;
+  --secondary-color: #1c3fa8;
+  --dark-color: #002240;
+  --light-color: #f4f4f4;
+}
+
+/* global starts */
+* {
+  box-sizing: border-box;
+  /* default avoiding reset */
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background-color: #333;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  /* change to same color as text */
+  color: #333;
+}
+h1,
+h2 {
+  font-weight: 300;
+  line-height: 1.2;
+  /* top and bottom 10 left and right 0 */
+  margin: 10px 0;
+}
+p {
+  margin: 10px 0;
+}
+img {
+  /* keep the images in container,even if largr,dont burst out */
+  width: 100%;
+}
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card {
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin: 10px;
+  width:40%;
+
+}
+.align{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.btn {
+  /* //display: inline-block; allows height and width */
+  display: inline-block;
+  padding: 10px 30px;
+  cursor: ponter;
+  background: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+.container h2{
+  color: red;
+}
